@@ -135,10 +135,97 @@ main {
     color: #757575;
 }
 
+.main-tables-container {
+    width: 100%;
+    height: 300px;
+}
+.table {
+    width: 197px;
+    margin: 0 auto;
+}
+.table__name {
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 2.3rem;
+    color: #FF9536;
+    text-align: left;
+    margin-bottom: 12px;
+    padding-left: 12px;
+}
+.table__container {
+    width: 201px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    background-color: var(--just-white);
+}
+.table__element {
+    width: 102px;
+    height: 39px;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.9rem;
+    text-align: left;
+    color: #B5B0AC;
+    padding: 10px;
+}
+.table__value {
+    width: 95px;
+    height: 40px;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.6rem;
+    text-align: center;
+    color: #757575;
+}
+.table__span {
+    width: 12px;
+    height: 12px;
+}
+.table__span-down {
+    background-image: url(./assets/icons/trending-down.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.table__vector {
+    position: absolute;
+    right: 25px;
+    bottom: -219px;
+    width: 14px;
+    height: 20px;
+    background-image: url('./assets/icons/vector.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.table__date {
+    width: 173px;
+    height: 31px;
+    font-size: 1.2rem;
+    font-weight: 200;
+    margin: 0 auto;
+    border-radius: 8px;
+    padding: 8px;
+    background-color: var(--soft-orange);
+    color: var(--warm-black);
+    margin-bottom: 36px;
+}
+.table__icon {
+    position: absolute;
+    left: calc(50% - 20px);
+    width: 40px;
+    height: 24px;
+    background-image: url('./assets/imgs/group16.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 /* Convencion: Como seccionar nuestros estilos
     1. Posicionamiento (relative, absolute...)
     2. Modelo de Caja (width, height...)
     3. Tipografia (font-family, font-size...)
-    4. Visuales (shadow, border radius...)
+    4. Visuales (shadow, border radius, margin...)
     5. Otros
 */
