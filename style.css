@@ -44,7 +44,6 @@ header img {
     margin-top: 40px;
     align-self: center;
 }
-
 .title {
     width: 90%;
     min-width: 288px;
@@ -91,6 +90,49 @@ header img {
     height: 8px;
     margin-left: 10px;
     background-image: url('./assets/icons/vectorDown.svg');
+}
+
+main {
+    width: 100%;
+    height: auto;
+    background-color: var(--off-white);
+}
+.main-exchange-container {
+    width: 100%;
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.main-exchange-container__title {
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.background-img {
+    width: 195px;
+    height: 195px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    background-image: url('./assets/imgs/bitcoin.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.main-exchange-container__h2 {
+    margin-bottom: 24px;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 2.6rem;
+    color: var(--warm-black);
+}
+.main-exchange-container__p {
+    margin-bottom: 48px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #757575;
 }
 
 /* Convencion: Como seccionar nuestros estilos
