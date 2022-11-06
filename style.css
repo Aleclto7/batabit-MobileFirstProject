@@ -96,7 +96,7 @@ header img {
 
 main {
     width: 100%;
-    height: auto;
+    height: auto;   
     background-color: var(--off-white);
 }
 .main-exchange-container {
@@ -163,6 +163,7 @@ main {
 }
 .table__container table {
     width: 100%;
+    box-shadow: 0px 6px 13px -15px lightslategrey;
 }
 .table__element {
     width: 52.9%;
@@ -233,11 +234,11 @@ main {
 .table__date {
     width: 173px;
     height: 31px;
+    margin: 0 auto;
+    padding: 8px;
     font-size: 1.2rem;
     font-weight: 200;
-    margin: 0 auto;
     border-radius: 8px;
-    padding: 8px;
     background-color: var(--soft-orange);
     color: var(--warm-black);
     margin-bottom: 36px;
