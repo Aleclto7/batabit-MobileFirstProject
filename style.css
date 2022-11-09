@@ -101,12 +101,11 @@ main {
 }
 .main-exchange-container {
     width: 100%;
-    height: auto;
+    height: 1121px;
     padding-top: 80px;
-    padding-bottom: 30px;
     text-align: center;
 }
-.main-exchange-container__title {
+.main-container__title {
     width: 90%;
     min-width: 288px;
     max-width: 900px;
@@ -122,15 +121,15 @@ main {
     background-position: center;
     background-repeat: no-repeat;
 }
-.main-exchange-container__h2 {
+.main-container__h2 {
     margin-bottom: 24px;
     font-size: 2.4rem;
     font-weight: 700;
     line-height: 2.6rem;
     color: var(--warm-black);
 }
-.main-exchange-container__p {
-    margin-bottom: 48px;
+.main-container__p {
+    margin-bottom: 35px;
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.8rem;
@@ -243,16 +242,6 @@ main {
     color: var(--warm-black);
     margin-bottom: 36px;
 }
-.table__icon {
-    position: absolute;
-    left: calc(50% - 20px);
-    width: 40px;
-    height: 24px;
-    background-image: url('./assets/imgs/group16.svg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
 .table__name-blue {
     color: var(--secondary-blue);
 }
@@ -262,6 +251,100 @@ main {
 .table__vector-left {
     right: 12%;
     background-image: url('./assets/icons/vector-dark-left.svg');
+}
+
+.main-benefits-container {
+    position: relative;                                                    /* Para que el icon se guie  */
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 60px 0 30px 0;
+    background-color: var(--warm-black);
+}
+.main-benefits-container__icon {
+    display: block;
+    position: absotule;                                                    /* Absolute, buscara el primer padre con 'relavite' para empezar de ahi */
+    top: -11px;
+    left: calc(50% - 20px);
+    width: 40px;
+    height: 24px;
+    background-image: url('./assets/imgs/group16.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.main-container__h2-white {
+    color: var(--just-white);
+}
+.main-container__p-light-gray {
+    color: #808080;
+}
+.data-container {
+    width: 90%;
+    min-width: 280px;
+    text-align: left;
+    margin: 0 auto;
+}
+.data-container__card {
+    width: 100%;
+    max-width: 400px;
+    min-height: 152px;
+    margin: 16px 0;
+    padding: 14px;
+    border-radius: 5px;
+    background-color: #282623;
+    box-shadow: 0px 4px 8px 0px #00000029;
+}
+.data-container__icon {
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.data-container__icon-clock {
+    background-image: url('./assets/icons/clock.svg');
+}
+.data-container__icon-eye {
+    background-image: url('./assets/icons/eye.svg');
+}
+.data-container__icon-dollar {
+    background-image: url('./assets/icons/dollar.svg');
+}
+.data-container__icon-check {
+    background-image: url('./assets/icons/check.svg');
+}
+
+.data-container__h3 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: var(--just-white);
+}
+.data-container__p {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
+}
+
+.main-wildcard {
+    width: 100%;
+    min-width: 320;
+    min-height: 380px;
+    background-image: url('./assets/imgs/bitcoin-baby.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.main-wildcard__h4 {
+    text-align: center;
+    padding-top: 57px;
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: var(--just-white);
 }
 
 /* Convencion: Como seccionar nuestros estilos
