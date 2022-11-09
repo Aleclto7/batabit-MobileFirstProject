@@ -263,7 +263,7 @@ main {
 }
 .main-benefits-container__icon {
     display: block;
-    position: absotule;                                                    /* Absolute, buscara el primer padre con 'relavite' para empezar de ahi */
+    position: absolute;                                                    /* Absolute, buscara el primer padre con 'relavite' para empezar de ahi */
     top: -11px;
     left: calc(50% - 20px);
     width: 40px;
@@ -346,6 +346,7 @@ main {
     font-weight: 700;
     color: var(--just-white);
 }
+
 
 /* Convencion: Como seccionar nuestros estilos
     1. Posicionamiento (relative, absolute...)
