@@ -143,6 +143,7 @@ main {
     height: 300px;
     padding: 0px 10%;
     display: flex;
+    justify-content: center;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
@@ -385,6 +386,9 @@ main {
     box-shadow: 0px 4px 8px 0px #59491E29;
     background-color: var(--just-white);
 }
+.plans-container__card-dark {
+    background-color: var(--warm-black);
+}
 .plans-container__recommended {
     position:absolute;
     width: 100px;
@@ -397,11 +401,20 @@ main {
     color: var(--just-white);
     background-color: var(--bitcoin-orange);
 }
+.plans-container__recommended-blue {
+    background-color: var(--secondary-blue);
+}
+.plans-container__recommended-gray {
+    background-color: #B5B0AC;
+}
 .plans-container__title {
     font-size: 1.4rem;
     font-weight: 700;
     margin-top: 10px;
     color: black;
+}
+.plans-container__title-white {
+    color: var(--just-white);
 }
 .plans-container__price span {
     font-family: 'Inter', sans-serif;
@@ -409,7 +422,7 @@ main {
     font-weight: 500;
     position: absolute;
     top: 59px;
-    left: 50px; 
+    left: 45px;
 }
 .plans-container__price {
     font-family: 'Inter', sans-serif;
@@ -417,6 +430,9 @@ main {
     font-weight: 700;
     margin: 3px 0px 10px;
     color: black;
+}
+.plans-container__price-white {
+    color: var(--just-white);
 }
 .plans-container__description {
     font-family: 'Inter', sans-serif;
@@ -436,6 +452,10 @@ main {
     color: var(--warm-black);
     background-color: var(--off-white);
     border: 2px solid var(--bitcoin-orange);
+}
+.plans-container__ca-white {
+    color: var(--just-white);
+    background-color: var(--warm-black);
 }
 .plans-cntainer-ca__icon {
     display: inline-block;
