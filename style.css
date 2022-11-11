@@ -143,7 +143,6 @@ main {
     height: 300px;
     padding: 0px 10%;
     display: flex;
-    justify-content: center;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
@@ -504,6 +503,13 @@ main {
     font-size: 8px;
     font-weight: 500;
     color: var(--soft-orange);
+}
+
+
+@media(min-width:450px) {
+    .table__vector {
+        display: none;
+    }
 }
 /* Convencion: Como seccionar nuestros estilos
     1. Posicionamiento (relative, absolute...)

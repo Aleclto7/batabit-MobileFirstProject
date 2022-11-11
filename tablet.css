@@ -15,4 +15,7 @@
 }
 .footer-links__li {
     margin: 0 20px;
+} 
+.main-tables-container {
+    justify-content: center;
 }
